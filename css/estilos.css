@@ -6,13 +6,13 @@
 }
 body{
     font-family: 'Montserrat Alternates', sans-serif;
-    background-image: url(../img/22.jpg);
+    background-image: url(../img/fondo.jpg);
     background-repeat: repeat;
     background-size: auto;
 }
 
-/* header */
-body header{
+/* HEADER */
+header{
     background-color: rgb(26, 24, 24);
     margin: 0;
 }
@@ -26,32 +26,12 @@ header h1{
     padding: 0;
 }
 
-/* menu nav*/
-#menu{
-    background-color: black;
-    position: sticky;
-    top: 0;
-    z-index: 2;
+/* MENU NAV */
+.nav-link:hover{
+    text-decoration: underline;
 }
 
-#menu ul{
-    margin-bottom: 0;
-}
-
-#menu ul li{
-    background-color: rgb(180, 165, 154);
-    margin: 10px;
-    padding: 10px;
-    display: inline-block;
-    border-radius: 10px;
-}
-
-#menu ul li a{
-    text-decoration: none;
-    color: black;
-}
-
-/* main */
+/* MAIN */
 main h2{
     text-decoration: underline;
     color:#c5d9e7;
@@ -68,11 +48,10 @@ h3{
     color: white
 }
 
-/* main (index) */
-.container p{
-    margin-bottom: 5px;
+/* MAIN (INDEX) */
+.index p{
+    margin-bottom: 0px;
 }
-
 .imagen-index{
     display: grid;
     grid-template-columns: 4fr 2fr;
@@ -81,7 +60,6 @@ h3{
 .imagen-index p{
     margin-right: 8px;
 }
-
 .section-img{
     display: flex;
     justify-content: space-evenly;
@@ -91,7 +69,10 @@ h3{
     height: 300px;
 }
 
-/* main (noticias) */
+/* MAIN (GALERÍA) */
+
+
+/* MAIN (NOTICIAS) */
 .news{
     display: flex;
 }
@@ -119,7 +100,7 @@ h3{
     font-style: italic;
 }
 
-/* main (sobrenosotros) */
+/* MAIN (SOBRENOSOTROS) */
 .info h3, fieldset, ul{
     color: white;
 }
