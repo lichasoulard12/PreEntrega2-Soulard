@@ -1,0 +1,155 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-image: url(../img/22.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+/* header */
+body header{
+    background-color: rgb(26, 24, 24);
+    margin: 0;
+}
+header h1{
+    color: rgb(35, 67, 155);
+    background-color: rgb(26, 24, 24);
+    padding: 10px;
+    margin: 0px;
+}
+
+/* menu nav*/
+#menu{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#menu ul{
+    margin-bottom: 0;
+}
+
+#menu ul li{
+    background-color: rgb(180, 165, 154);
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* main */
+main h2{
+    text-decoration: underline;
+    color:#c5d9e7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+main p{
+    color: rgb(255, 255, 255);
+    text-indent: 10px;
+}
+h3{
+    color: white
+}
+
+/* main (index) */
+.container p{
+    margin-bottom: 5px;
+}
+
+.imagen-index{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-row: auto;
+}
+.imagen-index p{
+    margin-right: 8px;
+}
+
+.section-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-img1, .section-img2{
+    width: 400px;
+    height: 300px;
+}
+
+/* main (noticias) */
+.news{
+    display: flex;
+}
+
+.noticias{
+    width: 300px;
+    margin: 20px;
+}
+
+.noticias img{
+    width: 100%;
+    height: auto;
+}
+
+.noticias img a{
+    display: block;
+    margin-top: 10px;
+}
+
+.noticias h3, p, a{
+    color: white;
+}
+
+.noticias h3{
+    font-style: italic;
+}
+
+/* main (sobrenosotros) */
+.info h3, fieldset, ul{
+    color: white;
+}
+
+.info h3{
+    text-decoration: underline;
+}
+
+.formulario fieldset, label, textarea{
+    display:block;
+}
+
+.formulario fieldset{
+    display: inline-block;
+}
+
+/* footer */
+footer{
+    background-color: rgb(26, 24, 24);
+    padding: 5px;
+}
+footer fieldset{
+    margin: 5px;
+    text-align: center;
+    color: rgb(57, 92, 187);
+}
+
+/* media queries celular*/
+@media screen (min-width:px){
+    
+}
+
+/* media queries desktop */
+@media screen (min-width:1024px){
+
+}
