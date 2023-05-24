@@ -129,11 +129,13 @@ footer fieldset{
 }
 
 /* media queries celular*/
-@media screen (min-width:px){
-    
+@media screen (min-width:600px){ 
+    .index-header{
+        
+    }
 }
 
-/* media queries desktop */
+/* media queries desktop 
 @media screen (min-width:1024px){
     
-}
+} */
