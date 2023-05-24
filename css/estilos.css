@@ -122,7 +122,7 @@ footer{
     background-color: rgb(26, 24, 24);
     padding: 5px;
 }
-footer fieldset{
+footer h4{
     margin: 5px;
     text-align: center;
     color: rgb(57, 92, 187);
@@ -145,14 +145,24 @@ footer fieldset{
         padding: 3px;
         margin: 3px;
     }
-
+    .imagen-index{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, 50%);
+    }
+    .imagen-index p{
+        flex-direction: column;
+        width: auto;
+    }
     .section-img{
         display: flex;
         flex-direction: column;
     }
-    .section-img img{
+    .index-section-img img{
         width: 100%;
         height: auto;
+        margin: 5px;
+        padding: 5px;
     }
 }
 
@@ -168,7 +178,17 @@ footer fieldset{
     .navbar-fixed .navbar-nav .nav-link{
         padding: 8px;
     }
-    .section-img{
+    /* INDEX */
+    .imagen-index{
+        display: grid;
+        grid-template-columns: 65% 35%;
+        grid-template-rows: auto;
+    }
+    .imagen-index img{
+        width: auto;
+        height: 80%;
+    }
+    .index-section-img{
         display: flex;
         flex-direction: row;
         width: 200px;
