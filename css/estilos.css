@@ -49,7 +49,7 @@ h3{
 }
 
 /* MAIN (INDEX) */
-.index p{
+.index-main p{
     margin-bottom: 0px;
 }
 .imagen-index{
@@ -130,9 +130,7 @@ footer fieldset{
 
 /* media queries celular*/
 @media screen (min-width:600px){ 
-    .index-header{
-        
-    }
+    
 }
 
 /* media queries desktop 
