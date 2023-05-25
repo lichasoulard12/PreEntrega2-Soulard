@@ -92,6 +92,7 @@ h3{
 /* MAIN (NOTICIAS) */
 .news{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .noticias{
@@ -115,6 +116,15 @@ h3{
 
 .noticias h3{
     font-style: italic;
+}
+
+.noticias p{
+    margin-bottom: 10px;
+}
+
+.noticias a:hover{
+    font-style: italic;
+    transition: rgb(109, 39, 39) 0.3 ease ;
 }
 
 /* MAIN (SOBRENOSOTROS) */
@@ -163,6 +173,7 @@ footer h4{
         padding: 3px;
         margin: 3px;
     }
+
     /* INDEX */
     .imagen-index{
         display: grid;
@@ -192,6 +203,13 @@ footer h4{
     .galeria-img .row img{
         margin-bottom: 0.5rem;
     }
+
+    /* NOTICIAS */
+    .news{
+        width: fit-content;
+        display: flex;
+        flex-flow: column nowrap;
+    }
 }
 
 /* media queries desktop */
@@ -208,6 +226,7 @@ footer h4{
         padding: 8px;
         margin: 0;
     }
+    
     /* INDEX */
     .imagen-index{
         display: grid;
@@ -240,5 +259,16 @@ footer h4{
         grid-template-columns: repeat(3, 2fr);
         grid-template-rows: 80%;
         justify-content: space-evenly;
+    }
+
+    /* NOTICIAS */
+    .news{
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+    }
+    .noticias{
+        width: fit-content;
+        height: auto;
     }
 }
