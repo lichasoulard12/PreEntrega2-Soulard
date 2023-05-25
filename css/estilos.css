@@ -30,6 +30,9 @@ header h1{
 .nav-link:hover{
     text-decoration: underline;
 }
+.navbar-toggler{
+    background-color: rgb(79, 163, 220);
+}
 
 /* MAIN */
 main h2{
